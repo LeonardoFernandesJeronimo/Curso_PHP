@@ -9,10 +9,10 @@
 <body>
 <div>
     <?php 
-        //Mostra quantas vezes a palavra foi encontrada
-        $frase = "Estou aprendendo PHP no Curso em Video de PHP";
-        $cont = substr_count($frase, "PHP");
-        print ("PHP encontrado $cont vezes");
+        //Encontra a posição da string
+        $frase = "Estou aprendendo PHP";
+        $pos = strpos($frase, "PHP");
+        echo "$frase <br> A string foi encontrada na posição $pos";
     ?>
 </div>
 </body>
