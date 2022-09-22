@@ -11,7 +11,7 @@
     <?php 
         //Encontra a posição da string
         $nome = "Leonardo";
-        $novo = str_pad($nome, 50, " ",STR_PAD_RIGHT);
+        $novo = str_pad($nome, 50, " ",STR_PAD_LEFT);
         print("Meu aluno $novo é muito dedicado!");
     ?>
 </div>
