@@ -9,9 +9,9 @@
 <body>
 <div>
     <?php 
-        //Deixa a primeira letra maiuscula
-        $nome = "leonaRdo ferNanDes";
-        $nome2 = ucfirst(strtolower($nome));
+        //Deixa cada primeira letra de uma palavra em maiscula
+        $nome = "leonardo fernandes";
+        $nome2 = ucwords($nome);
         echo "Seu nome é $nome2";
     ?>
 </div>
