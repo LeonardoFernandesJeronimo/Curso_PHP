@@ -9,10 +9,10 @@
 <body>
 <div>
     <?php 
-        //Encontra a posição da string
-        $frase = "Estou aprendendo PHP";
-        $pos = strpos($frase, "PHP");
-        echo "$frase <br> A string foi encontrada na posição $pos";
+        //Seleciona o um numero de strings para aparecer, no exemplo abaixo começa na posição 0 e vai até a posição 5
+       $site = "Curso em Video";
+       $sub = substr($site, 0 , 5);
+       echo "$sub ";
     ?>
 </div>
 </body>
