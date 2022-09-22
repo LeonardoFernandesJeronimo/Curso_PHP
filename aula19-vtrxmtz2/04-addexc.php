@@ -13,7 +13,7 @@
             $v = array("A","J","M","X","K");
             print_r($v);
             
-            // Add elementos na ultima posição.
+            // Add elementos.
             array_push($v, "O");
             
             print_r($v);
