@@ -13,8 +13,8 @@
             $v = array("A","J","M","X","K");
             print_r($v);
             
-            // Add elementos.
-            array_push($v, "O");
+            // Add elementos na primeira posição.
+            array_unshift($v, "L");
             
             print_r($v);
 
@@ -23,8 +23,8 @@
             $v = array("A","J","M","X","K");
             print_r($v);
             
-            // Exclui o ultimo elemento.
-            array_pop($v);
+            // Exclui o primeiro elemento.
+            array_shift($v);
             
             print_r($v);
         ?>
